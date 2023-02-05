@@ -1,0 +1,40 @@
+.subject {
+  display: grid;
+  background-color: #202020;
+  border-radius: 4px;
+  padding: 10px 10px;
+}
+
+.subject h3 {
+  min-height: 45px;
+  text-align: center;
+}
+
+.subject p {
+  text-align: center;
+}
+
+.subject li a {
+  display: inline-grid;
+  padding: 8px;
+}
+
+.subject ol {
+  list-style: none;
+  counter-reset: li;
+}
+
+.subject li {
+  counter-increment: li;
+}
+
+.subject li::before {
+  content: counter(li);
+  color: #0066cc;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1.5em;
+  margin-right: 0.5em;
+  text-align: right;
+  direction: rtl;
+}

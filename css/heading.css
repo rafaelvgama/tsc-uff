@@ -1,0 +1,10 @@
+.heading {
+  margin-top: 50px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.heading > p {
+  text-align: center;
+  margin: 0 25px;
+}
