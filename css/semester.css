@@ -1,11 +1,11 @@
 .semester {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 345px);
-  gap: 20px;
+  grid-template-columns: repeat(auto-fit, 21.563rem);
+  gap: 1.25rem;
   justify-content: center;
-  margin-bottom: 50px;
-  margin-right: 30px;
-  margin: 0px 25px 50px 25px;
+  margin-bottom: 3.125rem;
+  margin-right: 1.875rem;
+  margin: 0 1.563rem 3.125rem 1.563rem;
 }
 
 @media (max-width: 620px) {

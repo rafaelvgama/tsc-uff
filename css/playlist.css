@@ -1,9 +1,9 @@
 .playlist {
   background: linear-gradient(0deg, #111111 0%, #181818 80%);
   font-weight: bold;
-  padding: 10px 20px;
-  margin-top: 8px;
-  border-radius: 4px;
+  padding: 0.625rem 1.25rem;
+  margin-top: 0.5rem;
+  border-radius: 0.25rem;
   text-align: center;
   align-self: end;
   color: #a7a7a7;

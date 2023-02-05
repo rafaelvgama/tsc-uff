@@ -1,12 +1,12 @@
 .subject {
   display: grid;
   background-color: #202020;
-  border-radius: 4px;
-  padding: 10px 10px;
+  border-radius: 0.25rem;
+  padding: 0.625rem 0.625rem;
 }
 
 .subject h3 {
-  min-height: 45px;
+  min-height: 2.813rem;
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
 
 .subject li a {
   display: inline-grid;
-  padding: 8px;
+  padding: 0.5rem;
 }
 
 .subject ol {
@@ -32,9 +32,9 @@
   content: counter(li);
   color: #0066cc;
   display: inline-block;
-  width: 1em;
-  margin-left: -1.5em;
-  margin-right: 0.5em;
+  width: 1rem;
+  margin-left: -1.5rem;
+  margin-right: 0.5rem;
   text-align: right;
   direction: rtl;
 }
