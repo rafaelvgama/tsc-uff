@@ -16,3 +16,12 @@ a {
   text-decoration: none;
   color: #0066cc;
 }
+
+@media (max-width: 319px) {
+  body {
+    font-size: 80%;
+  }
+  h1 {
+    margin-bottom: 1.875rem;
+  }
+}
