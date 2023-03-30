@@ -1,0 +1,26 @@
+footer {
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+  background-color: var(--background-footer);
+  height: 12.5rem;
+  justify-content: end;
+  align-items: center;
+  padding: 2.5rem 0rem;
+}
+
+footer > p {
+  color: var(--text-color);
+  text-align: center;
+}
+
+footer > ul {
+  display: flex;
+  gap: 1.25rem;
+  justify-content: center;
+}
+
+.social-media {
+  display: flex;
+  gap: 1.25rem;
+}

@@ -11,6 +11,11 @@
   text-align: center;
 }
 
+.anchor p:first-child {
+  font-weight: bold;
+  color: var(--headers-color);
+}
+
 .anchor ul {
   padding: 0rem;
   max-width: 12.5rem;

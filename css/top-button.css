@@ -10,17 +10,17 @@
 .top-button::before {
   content: "↑";
   font-size: 2rem;
-  color: #38a9ff;
+  color: var(--primary-color-light);
   transition: 300ms;
 }
 
 .top-button:hover::before {
   margin-top: -0.5rem;
-  color: #1678c2;
+  color: var(--primary-color-dark);
 }
 
-@media (max-width: 250px) {
+@media (max-width: 300px) {
   .top-button::before {
-    content: "";
+    display: none;
   }
 }

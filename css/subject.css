@@ -1,6 +1,6 @@
 .subject {
   display: grid;
-  background-color: #202020;
+  background-color: var(--background-color-dark);
   border-radius: 0.25rem;
   padding: 0.625rem 0.625rem;
 }
@@ -30,7 +30,7 @@
 
 .subject li::before {
   content: counter(li);
-  color: #0066cc;
+  color: var(--primary-color-dark);
   display: inline-block;
   width: 1rem;
   margin-left: -1.5rem;

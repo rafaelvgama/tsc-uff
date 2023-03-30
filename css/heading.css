@@ -1,10 +1,11 @@
 .heading {
   margin-top: 3.125rem;
   text-align: center;
-  color: #ffffff;
+  color: var(--headers-color);
 }
 
 .heading > p {
   text-align: center;
   margin: 0 1.563rem;
+  color: var(--text-color);
 }

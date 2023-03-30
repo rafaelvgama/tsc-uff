@@ -1,0 +1,16 @@
+.tcc-topics span {
+  font-weight: bold;
+}
+
+.tcc-topics p {
+  color: var(--text-color);
+  padding-bottom: 1rem;
+  text-align: left;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.tcc-docs {
+  display: grid;
+  align-content: end;
+}

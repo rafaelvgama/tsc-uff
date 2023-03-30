@@ -8,7 +8,7 @@
   margin: 0 1.563rem 3.125rem 1.563rem;
 }
 
-@media (max-width: 620px) {
+@media (max-width: 420px) {
   .semester {
     grid-template-columns: initial;
   }
