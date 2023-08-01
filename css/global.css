@@ -1,30 +1,32 @@
 :root {
-  --background-color-light: #181a1b;
-  --background-color-dark: #202020;
-  --background-footer: #111111;
-  --headers-color: #ffffff;
-  --text-color: #a7a7a7;
+  --primary-color-light: #38a9ff;
   --link-color: #1678c2;
   --primary-color-dark: #1678c2;
-  --primary-color-light: #38a9ff;
-  --btn-color-dark: #111111;
-  --btn-color-light: #181818;
+  --headers-color: #ffffff;
+  --text-color: #a7a7a7;
   --btn-text-color: #a7a7a7;
+  --background-color-dark: #202020;
+  --background-color-light: #181a1b;
+  --btn-color-light: #181818;
+  --background-footer: #111111;
+  --btn-color-dark: #111111;
+  --box-shadow: #000000;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
+    --btn-color-light: #38a9ff;
+    --primary-color-light: #1678c2;
+    --btn-color-dark: #1678c2;
+    --link-color: #1c1a9e;
+    --primary-color-dark: #1c1a9e;
+    --headers-color: #020070;
+    --btn-text-color: #ffffff;
     --background-color-light: #ffffff;
     --background-color-dark: #e7e7e7;
     --background-footer: #e7e7e7;
-    --headers-color: #020070;
     --text-color: #232323;
-    --link-color: #1c1a9e;
-    --primary-color-dark: #1c1a9e;
-    --primary-color-light: #1678c2;
-    --btn-color-dark: #1678c2;
-    --btn-color-light: #38a9ff;
-    --btn-text-color: #ffffff;
+    --box-shadow: #222222;
   }
 }
 
@@ -61,7 +63,6 @@ a:hover {
   h1 {
     margin-bottom: 1.875rem;
   }
-
   a {
     font-size: 80%;
   }

@@ -8,8 +8,28 @@
   margin: 0 1.563rem 3.125rem 1.563rem;
 }
 
+.js .semester {
+  display: none;
+}
+
+.js .semester.active {
+  display: grid;
+  animation: slideDown 0.5s forwards;
+}
+
 @media (max-width: 420px) {
   .semester {
     grid-template-columns: initial;
+  }
+}
+
+@keyframes slideDown {
+  from {
+    opacity: 0;
+    max-height: 0;
+  }
+  to {
+    opacity: 1;
+    max-height: 500rem;
   }
 }
