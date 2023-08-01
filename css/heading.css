@@ -28,14 +28,12 @@ h2:hover {
 }
 
 h2::after {
-  content: "⮟";
+  content: "+";
   display: inline-block;
-  font-size: 1rem;
-  margin-top: 0.25rem;
   margin-left: 0.5rem;
   transition: 0.3s;
 }
 
 h2.active::after {
-  content: "⮝";
+  content: "-";
 }
