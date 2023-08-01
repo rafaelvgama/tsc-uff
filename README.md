@@ -16,6 +16,8 @@ Enquanto fazia a estilização, comecei a imaginar outras possibilidades e achei
 - Modos Claro e Escuro (de acordo com configuração do navegador)
 - Animações de scroll para as âncoras
 
+Mudança #1: adição de script JS para implementar accordion list.
+
 ## Autor
 
 Rafael Vogas Gama
@@ -39,6 +41,8 @@ While doing the styling, I began to imagine other possibilities and I thought it
 - Responsiveness
 - Light and Dark modes (according to browser setting)
 - Scroll animations for anchors
+
+Change #1: Added JS script to implement the accordion list.
 
 ## Author
 
